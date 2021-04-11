@@ -19,13 +19,13 @@ body {
   margin: 100px 0 0 500px;
 }
 
-header {
+.header-container {
   text-align: center;
 }
 
-header h1 {
-  margin-top: 50px;
-  font-size: 40px;
+.header-container h1 {
+  margin: 50px 0 15px 0;
+  font-size: 50px;
 }
 
 .touchpads {
@@ -74,8 +74,8 @@ header h1 {
 
 @keyframes jump {
   0% {
-    bottom: 0%;
-    left: 20%;
+    bottom: 10%;
+    left: 30%;
   }
   50% {
     bottom: 50%;

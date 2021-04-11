@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  const sounds = document.querySelectorAll(".sound");
+  const sounds = document.querySelectorAll(".touchpad-sound");
   const pads = document.querySelectorAll(".touchpads div");
   const visual = document.querySelector(".visual");
   const colors = [
