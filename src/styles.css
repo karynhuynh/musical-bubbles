@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  margin: 100px 0 0 500px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.touchpads {
+  width: 100%;
+  display: flex;
+}
+
+.touchpads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+
+.touchpad1 {
+  background: #000;
+}
+
+.touchpad2 {
+  background: #3d3d3d;
+}
+
+.touchpad3 {
+  background: #5e5d5d;
+}
+
+.touchpad4 {
+  background: #868686;
+}
+
+.touchpad5 {
+  background: #b3b3b3;
+}
+
+.touchpad6 {
+  background: #cfcfcf;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 60%;
+  }
+  100% {
+    bottom: 100%;
+    left: 0%;
+  }
+}
