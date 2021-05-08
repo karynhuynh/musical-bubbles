@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #000;
-  margin: 100px 0 0 500px;
+  margin: 100px auto;
 }
 
 .header-container {
@@ -79,7 +79,7 @@ body {
   }
 
   50% {
-    bottom: 50%;
+    bottom: 55%;
     left: 50%;
   }
 
